@@ -17,3 +17,8 @@
 * ingress:入口网关
 * egress: 出口网关
 
+
+### k8s核心组件介绍
+
+* pod:容器，可以包含多个container
+* master-node:节点，每个节点的最小单位是pod。节点还运行着kube-proxy服务进程
